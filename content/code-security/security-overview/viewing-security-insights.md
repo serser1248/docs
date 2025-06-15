@@ -77,7 +77,7 @@ Keep in mind that the overview page tracks changes over time for security alert 
 
 {% data reusables.organizations.navigate-to-org %}
 {% data reusables.organizations.security-overview %}
-1. The overview page is the primary view that you will see after clicking on the "Security" tab. To get to the dashboard from another security overview page, in the sidebar, click **{% octicon "graph" aria-hidden="true" %} Overview**.{% ifversion security-overview-3-tab-dashboard %}
+1. The overview page is the primary view that you will see after clicking on the "Security" tab. To get to the dashboard from another security overview page, in the sidebar, click **{% octicon "graph" aria-hidden="true" aria-label="graph" %} Overview**.{% ifversion security-overview-3-tab-dashboard %}
 1. By default, the **Detection** tab is displayed. If you want to switch to another tab to see other metrics, click **Remediation** or **Prevention**.{% endif %}
 {% data reusables.security-overview.filter-and-toggle %}
 
@@ -198,7 +198,7 @@ Green bars represent the number of new alerts created during the segmented time 
 
 * [Introduced versus prevented](#introduced-versus-prevented)
 * [Vulnerabilities fixed in pull requests](#vulnerabilities-fixed-in-pull-requests){% ifversion code-scanning-autofix %}
-* [{% data variables.product.prodname_copilot_autofix_short %} suggestions](##pull-request-alerts-fixed-with-copilot-autofix-suggestions){% endif %}
+* [{% data variables.copilot.copilot_autofix_short %} suggestions](##pull-request-alerts-fixed-with-copilot-autofix-suggestions){% endif %}
 
 #### Introduced versus prevented
 
@@ -212,11 +212,11 @@ The "Vulnerabilities fixed in pull requests" metric shows the count of pull requ
 
 {% ifversion code-scanning-autofix %}
 
-#### Pull request alerts fixed with {% data variables.product.prodname_copilot_autofix_short %} suggestions
+#### Pull request alerts fixed with {% data variables.copilot.copilot_autofix_short %} suggestions
 
-{% data variables.product.prodname_copilot_autofix %} for {% data variables.product.prodname_code_scanning %} is an expansion of {% data variables.product.prodname_code_scanning %} that provides you with targeted recommendations to help you fix {% data variables.product.prodname_code_scanning %} alerts. For more information, see [AUTOTITLE](/code-security/code-scanning/managing-code-scanning-alerts/responsible-use-autofix-code-scanning).
+{% data variables.copilot.copilot_autofix %} for {% data variables.product.prodname_code_scanning %} is an expansion of {% data variables.product.prodname_code_scanning %} that provides you with targeted recommendations to help you fix {% data variables.product.prodname_code_scanning %} alerts. For more information, see [AUTOTITLE](/code-security/code-scanning/managing-code-scanning-alerts/responsible-use-autofix-code-scanning).
 
-The "Pull request alerts fixed with autofix suggestions" metric shows the ratio of accepted {% data variables.product.prodname_copilot_autofix_short %} suggestions to the total number of {% data variables.product.prodname_copilot_autofix_short %} suggestions on pull request alerts detected by {% data variables.product.prodname_code_scanning %}.
+The "Pull request alerts fixed with autofix suggestions" metric shows the ratio of accepted {% data variables.copilot.copilot_autofix_short %} suggestions to the total number of {% data variables.copilot.copilot_autofix_short %} suggestions on pull request alerts detected by {% data variables.product.prodname_code_scanning %}.
 
 {% endif %}
 
@@ -287,11 +287,11 @@ Alerts that are reopened and re-closed during the chosen time period are ignored
 
 {% ifversion code-scanning-autofix %}
 
-### {% data variables.product.prodname_copilot_autofix_short %} suggestions
+### {% data variables.copilot.copilot_autofix_short %} suggestions
 
-{% data variables.product.prodname_copilot_autofix %} is an expansion of {% data variables.product.prodname_code_scanning %} that provides you with targeted recommendations to help you fix {% data variables.product.prodname_code_scanning %} alerts (including {% data variables.product.prodname_codeql %} alerts). For more information, see [AUTOTITLE](/code-security/code-scanning/managing-code-scanning-alerts/responsible-use-autofix-code-scanning).
+{% data variables.copilot.copilot_autofix %} is an expansion of {% data variables.product.prodname_code_scanning %} that provides you with targeted recommendations to help you fix {% data variables.product.prodname_code_scanning %} alerts (including {% data variables.product.prodname_codeql %} alerts). For more information, see [AUTOTITLE](/code-security/code-scanning/managing-code-scanning-alerts/responsible-use-autofix-code-scanning).
 
-The "{% data variables.product.prodname_copilot_autofix_short %} suggestions" metric is the total number of {% data variables.product.prodname_copilot_autofix_short %} suggestions generated in open and closed pull requests during the chosen time period.
+The "{% data variables.copilot.copilot_autofix_short %} suggestions" metric is the total number of {% data variables.copilot.copilot_autofix_short %} suggestions generated in open and closed pull requests during the chosen time period.
 
 {% endif %}
 

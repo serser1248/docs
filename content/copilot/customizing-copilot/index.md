@@ -7,12 +7,14 @@ versions:
 topics:
   - Copilot
 children:
+  - /using-model-context-protocol
   - /extending-the-capabilities-of-github-copilot-in-your-organization
   - /about-customizing-github-copilot-chat-responses
   - /adding-personal-custom-instructions-for-github-copilot
   - /adding-repository-custom-instructions-for-github-copilot
   - /adding-organization-custom-instructions-for-github-copilot
-  - /extending-copilot-chat-with-mcp
+  - /customizing-the-development-environment-for-copilot-coding-agent
+  - /customizing-or-disabling-the-firewall-for-copilot-coding-agent
   - /managing-copilot-knowledge-bases
   - /creating-a-custom-model-for-github-copilot
 redirect_from:

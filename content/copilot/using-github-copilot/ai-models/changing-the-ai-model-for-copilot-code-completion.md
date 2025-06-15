@@ -62,11 +62,11 @@ By default, {% data variables.product.prodname_copilot_short %} code completion 
 
 ## Effects of switching the AI model
 
-Changing the model that's used for {% data variables.product.prodname_copilot_short %} code completion does not affect the model that's used by {% data variables.product.prodname_copilot_chat_short %}. See [AUTOTITLE](/copilot/using-github-copilot/ai-models/changing-the-ai-model-for-copilot-chat).
+Changing the model that's used for {% data variables.product.prodname_copilot_short %} code completion does not affect the model that's used by {% data variables.copilot.copilot_chat_short %}. See [AUTOTITLE](/copilot/using-github-copilot/ai-models/changing-the-ai-model-for-copilot-chat).
 
 There are no changes to the data collection and usage policy if you change the AI model.
 
-If you are on a {% data variables.product.prodname_copilot_free_short %} subscription, all completions count against your completions quota regardless of the model used. See [AUTOTITLE](/copilot/about-github-copilot/subscription-plans-for-github-copilot#comparing-copilot-subscriptions).
+If you are on a {% data variables.copilot.copilot_free_short %} subscription, all completions count against your completions quota regardless of the model used. See [AUTOTITLE](/copilot/about-github-copilot/subscription-plans-for-github-copilot#comparing-copilot-subscriptions).
 
 The setting to enable or disable suggestions that match public code are applied irrespective of which model you choose. See [AUTOTITLE](/enterprise-cloud@latest/copilot/using-github-copilot/finding-public-code-that-matches-github-copilot-suggestions).
 
@@ -74,7 +74,7 @@ The setting to enable or disable suggestions that match public code are applied 
 
 {% ifversion fpt %}
 
-If you have a {% data variables.product.prodname_copilot_free_short %} or {% data variables.product.prodname_copilot_pro_short %} subscription, the model switcher for {% data variables.product.prodname_copilot_short %} code completion is automatically enabled.
+If you have a {% data variables.copilot.copilot_free_short %} or {% data variables.copilot.copilot_pro_short %} subscription, the model switcher for {% data variables.product.prodname_copilot_short %} code completion is automatically enabled.
 
 {% endif %}
 
@@ -90,7 +90,7 @@ The following instructions are for {% data variables.product.prodname_vscode_sho
 1. Type `change completions model` and select the "{% data variables.product.prodname_copilot %}: Change Completions Model" command.
 1. In the dropdown menu, select the model you want to use.
 
-Alternatively, if Command Center is enabled, you can click {% octicon "chevron-down" aria-label="The downward-pointing arrowhead" %} beside the **{% octicon "copilot" aria-hidden="true" %}** icon at the top of the {% data variables.product.prodname_vscode_shortname %} window, then click **Configure Code Completions** in the dropdown menu. Then choose **Change Completions Model** in the dropdown menu and select the model you want to use.
+Alternatively, if Command Center is enabled, you can click {% octicon "chevron-down" aria-label="The downward-pointing arrowhead" %} beside the **{% octicon "copilot" aria-hidden="true" aria-label="copilot" %}** icon at the top of the {% data variables.product.prodname_vscode_shortname %} window, then click **Configure Code Completions** in the dropdown menu. Then choose **Change Completions Model** in the dropdown menu and select the model you want to use.
 
 ## Checking which model is being used
 
@@ -107,7 +107,7 @@ Alternatively, if Command Center is enabled, you can click {% octicon "chevron-d
 
 The following instructions are for {% data variables.product.prodname_vs %}. If you are using {% data variables.product.prodname_vscode_shortname %}, or a JetBrains IDE, click the appropriate tab at the start of this article.
 
-1. Click the **{% octicon "copilot" aria-hidden="true" %}** icon in the top right corner.
+1. Click the **{% octicon "copilot" aria-hidden="true" aria-label="copilot" %}** icon in the top right corner.
 1. Click **Settings**, then click **Options**.
 1. Under **{% data variables.product.prodname_copilot_short %} Completions**, use the dropdown menu to select the model you want to use.
 
@@ -119,7 +119,7 @@ The following instructions are for {% data variables.product.prodname_vs %}. If 
 
 The following instructions are for JetBrains IDEs. If you are using {% data variables.product.prodname_vs %}, or {% data variables.product.prodname_vscode_shortname %}, click the appropriate tab at the start of this article.
 
-1. Click the **{% octicon "copilot" aria-hidden="true" %}** icon in the status bar.
+1. Click the **{% octicon "copilot" aria-hidden="true" aria-label="copilot" %}** icon in the status bar.
 1. In the popup menu, click **Edit Model for Completion**.
 1. In the settings dialog box for "Languages & Frameworks > {% data variables.product.prodname_copilot %}," click the dropdown menu for **Model for completions** and select the model you want to use.
 1. Click **OK**.

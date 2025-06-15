@@ -788,7 +788,7 @@ When introducing a list, avoid short, nonspecific sentences using terms like “
 Use permission statements and product callouts to communicate tasks that require specific roles or products to complete.
 
 * [**Permissions statements**](/contributing/style-guide-and-content-model/contents-of-a-github-docs-article#permissions-statements): The role required to take an action or do a task described in the article. Example: "Enterprise owners."
-* [**Product callout**](/contributing/style-guide-and-content-model/contents-of-a-github-docs-article#product-callout): The product or products required to take an action or do a task described in the article. Example: "Organization and enterprise accounts with a subscription to {% data variables.product.prodname_copilot_business_short %}."
+* [**Product callout**](/contributing/style-guide-and-content-model/contents-of-a-github-docs-article#product-callout): The product or products required to take an action or do a task described in the article. Example: "Organization and enterprise accounts with a subscription to {% data variables.copilot.copilot_business_short %}."
 
 Together, permission statements and product callouts tell readers who can use the feature being described in an article.
 
@@ -868,6 +868,12 @@ Do not capitalize commonly used features like pull requests, topics, or issues.
 ## Product-specific conventions
 
 This section describes additional conventions that are specific to GitHub products.
+
+### {% data variables.product.prodname_copilot %}
+
+#### {% data variables.product.prodname_copilot_short %} code completion
+
+The {% data variables.product.prodname_copilot_short %} feature that suggests code as you are working on a file is called "{% data variables.product.prodname_copilot_short %} code completion" or just "code completion" (singular). Only use "code suggestions" (plural) when referring to multiple instances of code completion suggestions. For example, "When using {% data variables.product.prodname_copilot_short %} code completion..." but "the plan includes 2,000 code completions..."
 
 ### {% data variables.product.prodname_actions %}
 
@@ -1533,11 +1539,12 @@ Format lists and clickable list items in bold. To describe interacting with a li
 
 ### Location
 
-Describe a user interface element’s location with standard terms.
-* Under or above
-* Next to
-* Upper-left, upper-right, lower-left, lower-right
-* Top of the page, bottom of the page, right side of the page, left side of the page
+As per [WCAG guidance](https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html), we should describe elements by name and not merely by appearance or location. The Microsoft Style Guide offers specific guidance for directional phrases, with emphasis on their use in documentation.
+
+* [Above](https://learn.microsoft.com/en-us/style-guide/a-z-word-list-term-collections/a/above) or [below](https://learn.microsoft.com/en-us/style-guide/a-z-word-list-term-collections/b/below)
+* [Upper-left, upper-right](https://learn.microsoft.com/en-us/style-guide/a-z-word-list-term-collections/u/upper-left-upper-right)
+* [Lower-left, lower-right](https://learn.microsoft.com/en-us/style-guide/a-z-word-list-term-collections/l/lower-left-lower-right)
+* Next to, bottom or top of the page, left or right side of the page
 
 ### Panels
 

@@ -73,7 +73,7 @@ If you use Azure private networking for {% data variables.product.company_short 
 
 | Runner type | Supported regions |
 | ----------- | ----------------- |
-| x64 | `francecentral`, `swedencentral`, `germanywestcentral` |
+| x64 | `francecentral`, `swedencentral`, `germanywestcentral`, `northeurope` |
 | arm64 | `francecentral`, `northeurope`, `germanywestcentral` |
 | GPU | `italynorth`, `swedencentral` |
 
@@ -83,7 +83,7 @@ If you use Azure private networking for {% data variables.product.company_short 
 | ----------- | ----------------- |
 | x64 | `australiaeast`, `australiacentral` |
 | arm64 | `australiaeast`, `australiacentral` |
-| GPU | N/A |
+| GPU | `australiaeast`, `australiacentral` |
 
 ### Supported regions in the US
 
@@ -130,8 +130,6 @@ You must allow:
 
 ### Required in Australia
 
-* 20.213.236.72/29
-* 20.53.178.216/29
 * 20.213.241.72/29
 * 20.11.90.48/29
 * 20.5.34.240/28

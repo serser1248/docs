@@ -726,6 +726,7 @@
   versions:
     fpt: '*'
     ghec: '*'
+    ghes: '>=3.18'
   isPublic: true
   isPrivateWithGhas: true
   hasPushProtection: true
@@ -737,6 +738,7 @@
   versions:
     fpt: '*'
     ghec: '*'
+    ghes: '>=3.18'
   isPublic: true
   isPrivateWithGhas: true
   hasPushProtection: true
@@ -748,6 +750,7 @@
   versions:
     fpt: '*'
     ghec: '*'
+    ghes: '>=3.18'
   isPublic: false
   isPrivateWithGhas: true
   hasPushProtection: false
@@ -783,6 +786,7 @@
   versions:
     fpt: '*'
     ghec: '*'
+    ghes: '>=3.18'
   isPublic: true
   isPrivateWithGhas: true
   hasPushProtection: false
@@ -1091,6 +1095,7 @@
   versions:
     fpt: '*'
     ghec: '*'
+    ghes: '>=3.18'
   isPublic: false
   isPrivateWithGhas: true
   hasPushProtection: false
@@ -1222,6 +1227,7 @@
   versions:
     fpt: '*'
     ghec: '*'
+    ghes: '>=3.18'
   isPublic: true
   isPrivateWithGhas: true
   hasPushProtection: true
@@ -1245,6 +1251,7 @@
   versions:
     fpt: '*'
     ghec: '*'
+    ghes: '>=3.18'
   isPublic: false
   isPrivateWithGhas: true
   hasPushProtection: false
@@ -1256,6 +1263,7 @@
   versions:
     fpt: '*'
     ghec: '*'
+    ghes: '>=3.18'
   isPublic: false
   isPrivateWithGhas: true
   hasPushProtection: false
@@ -1776,7 +1784,7 @@
     fpt: '*'
     ghec: '*'
     ghes: '>=3.5'
-  isPublic: false
+  isPublic: true
   isPrivateWithGhas: true
   hasPushProtection: true
   hasValidityCheck: false
@@ -1847,6 +1855,7 @@
   versions:
     fpt: '*'
     ghec: '*'
+    ghes: '>=3.18'
   isPublic: true
   isPrivateWithGhas: true
   hasPushProtection: false
@@ -1901,11 +1910,24 @@
   hasValidityCheck: false
   isduplicate: false
 - provider: Heroku
+  supportedSecret: Heroku Platform API OAuth2 Token
+  secretType: heroku_platform_api_oauth2_token
+  versions:
+    fpt: '*'
+    ghec: '*'
+    ghes: '>=3.18'
+  isPublic: false
+  isPrivateWithGhas: true
+  hasPushProtection: true
+  hasValidityCheck: false
+  isduplicate: false
+- provider: Heroku
   supportedSecret: Heroku Postgres Connection URL
   secretType: heroku_postgres_connection_url
   versions:
     fpt: '*'
     ghec: '*'
+    ghes: '>=3.18'
   isPublic: false
   isPrivateWithGhas: true
   hasPushProtection: false
@@ -2065,30 +2087,6 @@
   isPublic: true
   isPrivateWithGhas: true
   hasPushProtection: true
-  hasValidityCheck: false
-  isduplicate: false
-- provider: IBM
-  supportedSecret: IBM Cloud IAM Key
-  secretType: ibm_cloud_iam_key
-  versions:
-    fpt: '*'
-    ghec: '*'
-    ghes: '>=3.14'
-  isPublic: false
-  isPrivateWithGhas: true
-  hasPushProtection: false
-  hasValidityCheck: false
-  isduplicate: false
-- provider: IBM
-  supportedSecret: IBM SoftLayer API Key
-  secretType: ibm_softlayer_api_key
-  versions:
-    fpt: '*'
-    ghec: '*'
-    ghes: '>=3.14'
-  isPublic: false
-  isPrivateWithGhas: true
-  hasPushProtection: false
   hasValidityCheck: false
   isduplicate: false
 - provider: Intercom
@@ -2524,6 +2522,7 @@
   versions:
     fpt: '*'
     ghec: '*'
+    ghes: '>=3.18'
   isPublic: true
   isPrivateWithGhas: true
   hasPushProtection: true
@@ -2535,6 +2534,7 @@
   versions:
     fpt: '*'
     ghec: '*'
+    ghes: '>=3.18'
   isPublic: true
   isPrivateWithGhas: true
   hasPushProtection: false
@@ -2546,6 +2546,7 @@
   versions:
     fpt: '*'
     ghec: '*'
+    ghes: '>=3.18'
   isPublic: true
   isPrivateWithGhas: true
   hasPushProtection: false
@@ -2557,6 +2558,7 @@
   versions:
     fpt: '*'
     ghec: '*'
+    ghes: '>=3.18'
   isPublic: true
   isPrivateWithGhas: true
   hasPushProtection: false
@@ -2568,6 +2570,7 @@
   versions:
     fpt: '*'
     ghec: '*'
+    ghes: '>=3.18'
   isPublic: true
   isPrivateWithGhas: true
   hasPushProtection: false
@@ -2579,6 +2582,7 @@
   versions:
     fpt: '*'
     ghec: '*'
+    ghes: '>=3.18'
   isPublic: true
   isPrivateWithGhas: true
   hasPushProtection: false
@@ -2590,6 +2594,7 @@
   versions:
     fpt: '*'
     ghec: '*'
+    ghes: '>=3.18'
   isPublic: true
   isPrivateWithGhas: true
   hasPushProtection: false
@@ -2601,6 +2606,7 @@
   versions:
     fpt: '*'
     ghec: '*'
+    ghes: '>=3.18'
   isPublic: true
   isPrivateWithGhas: true
   hasPushProtection: false
@@ -2612,6 +2618,7 @@
   versions:
     fpt: '*'
     ghec: '*'
+    ghes: '>=3.18'
   isPublic: true
   isPrivateWithGhas: true
   hasPushProtection: false
@@ -2944,6 +2951,7 @@
   versions:
     fpt: '*'
     ghec: '*'
+    ghes: '>=3.18'
   isPublic: false
   isPrivateWithGhas: true
   hasPushProtection: false
@@ -3375,9 +3383,34 @@
   versions:
     fpt: '*'
     ghec: '*'
+    ghes: '>=3.18'
   isPublic: true
   isPrivateWithGhas: true
   hasPushProtection: true
+  hasValidityCheck: false
+  isduplicate: false
+- provider: Salesforce
+  supportedSecret: Salesforce OAuth2 Consumer Key
+  secretType: salesforce_oauth2_consumer_key </br>salesforce_oauth2_consumer_secret
+  versions:
+    fpt: '*'
+    ghec: '*'
+    ghes: '>=3.18'
+  isPublic: false
+  isPrivateWithGhas: true
+  hasPushProtection: true
+  hasValidityCheck: false
+  isduplicate: false
+- provider: Salesforce
+  supportedSecret: Salesforce Refresh Token
+  secretType: salesforce_refresh_token
+  versions:
+    fpt: '*'
+    ghec: '*'
+    ghes: '>=3.18'
+  isPublic: false
+  isPrivateWithGhas: true
+  hasPushProtection: false
   hasValidityCheck: false
   isduplicate: false
 - provider: Samsara
@@ -3701,6 +3734,17 @@
   isPublic: true
   isPrivateWithGhas: true
   hasPushProtection: true
+  hasValidityCheck: false
+  isduplicate: false
+- provider: Snowflake
+  supportedSecret: Snowflake Programmatic Access Token
+  secretType: snowflake_programmatic_access_token
+  versions:
+    fpt: '*'
+    ghec: '*'
+  isPublic: false
+  isPrivateWithGhas: true
+  hasPushProtection: false
   hasValidityCheck: false
   isduplicate: false
 - provider: Sourcegraph
@@ -4165,7 +4209,8 @@
   versions:
     fpt: '*'
     ghec: '*'
-  isPublic: false
+    ghes: '>=3.18'
+  isPublic: true
   isPrivateWithGhas: true
   hasPushProtection: false
   hasValidityCheck: false
